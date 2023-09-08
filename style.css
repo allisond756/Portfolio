@@ -1,0 +1,276 @@
+* {
+    font-family: DM Serif Text;
+    src: url(https://fonts.google.com/specimen/DM+Serif+Text);
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(77, 85, 68);
+    overflow-x: hidden;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.navlist {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.nav-item {
+    border: solid rgb(39, 30, 28) 1px;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(175, 153, 145);
+}
+
+.navbar-company {
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 25px;
+    border: solid rgb(39, 30, 28) 1px;
+    background-color: rgb(175, 153, 145);
+    border-radius: 10px;
+    padding: .5%;
+}
+
+nav {
+    background-color: rgb(77, 85, 68);
+    width: 100%;
+    top: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(53, 34, 34)
+}
+
+a:hover {
+    color:rgb(23, 65, 40)
+}
+
+/* home main */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: rgb(154, 168, 138);
+}
+
+.main-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 5%;
+    background-color:rgb(53, 34, 34);
+    border: solid;
+    border-radius: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.allison-img {
+    height: 30%;
+    width: 30%;
+    border:solid rgb(154, 168, 138) 3px;
+    border-radius: 50%;
+}
+
+/* about me page */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-tile {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 1%;
+    justify-content: space-around;
+    border: solid rgb(39, 30, 28) 3px;
+    border-radius: 10px;
+    color: rgb(53, 34, 34);
+    background-color: rgb(154, 168, 138);
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 300%;
+    margin-top: 0%;
+}
+
+.family-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-photos {
+    height: 30%;
+    width: 30%;
+    border: solid rgb(77, 85, 68) 3px;
+    border-radius: 5px;
+}
+
+.family-blurb {
+    margin: 1%;
+    text-align: center;
+}
+
+.animal-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-animals {
+    height: 20%;
+    width: 20%;
+    border: solid rgb(77, 85, 68) 3px;
+    border-radius: 5px;
+}
+
+/* art page */
+
+.art-container {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(175, 153, 145)
+}
+
+.photography-tile {
+    border: solid rgb(175, 153, 145) 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgb(53, 34, 34);
+    margin: 1%;
+}
+
+.collage-tile {
+    border: solid rgb(175, 153, 145) 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgb(53, 34, 34);
+    margin: 1%;
+}
+
+.jewelry-tile {
+    border: solid rgb(175, 153, 145) 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgb(53, 34, 34);
+    margin: 1%;
+}
+
+.drawing-tile {
+    border: solid rgb(175, 153, 145) 3px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgb(53, 34, 34);
+    margin: 1%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photog-img {
+    height: 20%;
+    width: 20%;
+    border: solid rgb(154, 168, 138) 3px;
+    border-radius: 2px;
+}
+
+.collage-img {
+    height: 20%;
+    width: 20%;
+    border: solid rgb(154, 168, 138) 3px;
+    border-radius: 2px;
+}
+
+.earring-img {
+    height: 20%;
+    width: 20%;
+    border: solid rgb(154, 168, 138) 3px;
+    border-radius: 2px;
+}
+
+.drawing-img {
+    height: 20%;
+    width: 20%;
+    border: solid rgb(154, 168, 138) 3px;
+    border-radius: 2px;
+}
+
+/* form */
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-box {
+    margin: 3%;
+    padding: 3%;
+    background-color: rgb(154, 168, 138);
+    border: solid rgb(53, 34, 34) 3px;
+    border-radius: 10px;
+    color: rgb(53, 34, 34)
+}
+
+input {
+    border: solid rgb(53, 34, 34) 1px;
+    border-radius: 3px;
+    background-color: rgb(250, 236, 211);
+}
+
+textarea {
+    border: solid rgb(53, 34, 34) 1px;
+    border-radius: 3px;
+    background-color: rgb(250, 236, 211);
+}
+
+button {
+    border: solid rgb(53, 34, 34) 1px;
+    border-radius: 3px;
+    background-color: rgb(250, 236, 211);  
+}
