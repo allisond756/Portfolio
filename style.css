@@ -23,8 +23,6 @@ body {
     margin-left: .7em;
     margin-top: .4em;
     font-size: 1.5em;
-    border: solid rgb(39, 30, 28) 1px;
-    background-color: rgba(224, 199, 190, 0.76);
     border-radius: 10px;
     padding: .5%;
 }
@@ -40,7 +38,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:rgb(53, 34, 34);
+    color:rgba(219, 238, 198, 0.8);
     text-decoration: none;
 }
 
@@ -70,10 +68,11 @@ a:hover {
     height: 50%;
     margin: 1em;
     padding: 1em;
-    border: solid rgb(39, 30, 28) 3px;
+    box-shadow: 10px 10px rgba(96, 117, 73, 0.5);
+    /* border: groove rgb(49, 32, 28) 5px; */
     border-radius: 10px;
     color: rgb(53, 34, 34);
-    background-color: rgba(219, 238, 198, 0.671);
+    background-color: rgba(219, 238, 198, 0.6);
 }
 
 .header {
@@ -95,8 +94,8 @@ a:hover {
     display:flex;
     flex-direction: row;
     align-self: center;
-    height: auto;
-    width: 70%;
+    height: 8em;
+    width: 16em;
     border: solid rgb(77, 85, 68) 3px;
     border-radius: 5px;
 }
@@ -104,6 +103,8 @@ a:hover {
 .project-tile {
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: 40%;
 }
 
 p {
@@ -136,5 +137,5 @@ p {
     align-self: center;
     border: solid rgb(39, 30, 28) 3px;
     border-radius: 10px;
-    background-color: rgba(219, 238, 198, 0.671);
+    background-color: rgba(219, 238, 198, 0.6);
 }
