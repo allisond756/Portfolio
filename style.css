@@ -68,11 +68,8 @@ a:hover {
     height: 50%;
     margin: 1em;
     padding: 1em;
-    box-shadow: 10px 10px rgba(96, 117, 73, 0.5);
-    /* border: groove rgb(49, 32, 28) 5px; */
     border-radius: 10px;
     color: rgb(53, 34, 34);
-    background-color: rgba(219, 238, 198, 0.6);
 }
 
 .header {
@@ -81,6 +78,7 @@ a:hover {
     justify-content: center;
     font-size: 300%;
     margin-top: 0em;
+    color:rgba(219, 238, 198, 0.8);
 }
 
 .project-photos {
@@ -94,8 +92,8 @@ a:hover {
     display:flex;
     flex-direction: row;
     align-self: center;
-    height: 8em;
-    width: 16em;
+    height: 7em;
+    width: 14em;
     border: solid rgb(77, 85, 68) 3px;
     border-radius: 5px;
 }
@@ -105,6 +103,11 @@ a:hover {
     flex-direction: column;
     height: auto;
     width: 40%;
+    margin: 2em;
+    padding-top: 1em;
+    border-radius: 10px;
+    background-color: rgba(219, 238, 198, 0.7);
+    box-shadow: 10px 10px rgba(96, 117, 73, 0.5);
 }
 
 p {
@@ -122,6 +125,9 @@ p {
     flex-direction: column;
     text-align: center;
     width: 60%;
+    border-radius: 10px;
+    background-color: rgba(219, 238, 198, 0.7);
+    box-shadow: 10px 10px rgba(96, 117, 73, 0.5);
 }
 
 .badge {
@@ -137,5 +143,5 @@ p {
     align-self: center;
     border: solid rgb(39, 30, 28) 3px;
     border-radius: 10px;
-    background-color: rgba(219, 238, 198, 0.6);
+    background-color: rgba(219, 238, 198, 0.7);
 }
